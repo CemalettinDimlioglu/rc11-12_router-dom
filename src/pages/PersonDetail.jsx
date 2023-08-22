@@ -3,6 +3,8 @@
  import NotFound from "./NotFound";
  import spinner from "../img/Spinner-2.gif";
  const PersonDetail = () => {
+
+  console.log(useLocation);
    // const {state:person} =useLocation()
    const navigate = useNavigate();
    const { id } = useParams();
