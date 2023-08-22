@@ -2,6 +2,8 @@ import React from "react";
 import { Navigate, Outlet } from "react-router-dom";
 import Login from "./Login";
 
+console.log(Login);
+
 const PrivateRouter = () => {
   const isSigned = false;
 
